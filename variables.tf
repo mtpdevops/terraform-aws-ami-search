@@ -13,7 +13,7 @@ variable "amis_os_map_regex" {
 
   default = {
     ubuntu       = "^ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-.*"
-    ubuntu-14.04 = "^ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-.*"
+    "ubuntu-14.04" = "^ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-.*"
     ubuntu-16.04 = "^ubuntu/images/hvm-ssd/ubuntu-xenial-16.04-amd64-server-.*"
     ubuntu-18.04 = "^ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-.*"
     ubuntu-18.10 = "^ubuntu/images/hvm-ssd/ubuntu-cosmic-18.10-amd64-server-.*"
